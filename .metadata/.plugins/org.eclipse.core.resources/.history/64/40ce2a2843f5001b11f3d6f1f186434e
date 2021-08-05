@@ -1,0 +1,28 @@
+package week1;
+import java.util.Scanner;
+
+public class Lastletteruppercase
+{
+
+	public static void main(String[] args
+			) {
+		// TODO Auto-generated method stub
+		//Scanner sc=new Scanner(System.in);
+		String str="hi hello girls";
+		String[] st=str.split(" ");
+		int j;
+		str ="";
+		for(int i=0;i<st.length;i++)
+		{
+		  j=st[i].length()-1;
+		  char s=Character.toUpperCase(st[i].charAt(j));
+		  st[i]+=s;
+		  System.out.print(st[i]+" ");
+		  
+		}
+		//emp+=s;
+		//System.out.println(str);
+
+	}
+
+}

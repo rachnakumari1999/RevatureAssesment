@@ -1,0 +1,41 @@
+package weekencap;
+
+public class Areain {
+	double length = 10;
+	double breath = 20;
+	double heigth = 30;
+}
+class Square extends Areain
+{
+	void area() 
+	{
+		System.out.println("Area of Square : " +length*length);
+	}
+}
+class Rect extends Areain {
+	void area() {
+		System.out.println("Area of rectangle : "+length*breath);
+	}
+}
+
+class Trap extends Areain {
+	void area() {
+		System.out.println("Area of Trapazium : " + (length+breath)/2*heigth);
+	}
+}
+
+
+public  class AreaInheritance{
+	
+public static void main(String[] args) 
+{
+		// TODO Auto-generated method stub
+		Square sqr = new Square();
+		Rect r= new Rect();
+		Trap trp = new Trap();
+		sqr.area();
+		r.area();
+		trp.area();
+	}
+
+}

@@ -1,0 +1,5 @@
+package thirdaug;
+
+public class InvalidAgeException {
+
+}

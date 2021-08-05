@@ -1,0 +1,21 @@
+package weekencap;
+class Inheritance{
+	double length=10;
+	double breadth=20;
+}
+class Area extends Inheritance{
+	void area()
+	{
+		System.out.println("area :"+length*length);
+	}
+}
+public class Shape {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Area a=new Area();
+		a.area();
+
+	}
+
+}
