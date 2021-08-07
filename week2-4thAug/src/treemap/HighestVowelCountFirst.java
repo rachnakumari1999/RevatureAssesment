@@ -34,7 +34,7 @@ public class HighestVowelCountFirst
 	    		count++; 
 	    	 }
 	     }
-	   /*  if(map.containsKey(count))
+	    if(map.containsKey(count))
 	     {
 	    	 String temp = map.get(count);
 			 String rev = new StringBuilder(str[i]).reverse().toString();
@@ -45,7 +45,7 @@ public class HighestVowelCountFirst
 	     {
 		   map.put(count, str[i]);
 		 }
-		 */
+		 
 	     System.out.println(str[i]+" "+count);
 	   }
  }
